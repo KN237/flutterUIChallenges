@@ -1,5 +1,5 @@
-import 'package:ai_chat/sqflite/models/personne.dart';
-import 'package:ai_chat/sqflite/services/personne_provider.dart';
+import 'package:challenges/sqflite/models/personne.dart';
+import 'package:challenges/sqflite/services/personne_provider.dart';
 import 'package:flutter/material.dart';
 
 const String title = 'Flutter Sqlite';
