@@ -34,9 +34,13 @@ dependencies:
   path: any
   path_provider: ^2.1.5
   sqflite: ^2.4.1
+  hive_ce: 
+  hive_ce_flutter: 
 
 dev_dependencies:
   flutter_lints: ^4.0.0
+  hive_ce_generator: 
+  build_runner: 
   flutter_test:
     sdk: flutter
 

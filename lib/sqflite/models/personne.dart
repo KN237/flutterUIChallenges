@@ -1,13 +1,21 @@
+import 'package:hive_ce_flutter/hive_flutter.dart';
+part 'personne.g.dart';
+
 const String tableName = 'Personne';
 const String colonneId = 'id';
 const String colonneNom = 'nom';
 const String colonnePrenom = 'prenom';
 const String colonneAge = 'age';
 
-class Personne {
+@HiveType(typeId: 0)
+class Personne extends HiveObject {
+  @HiveField(0)
   String? id;
+  @HiveField(1)
   String nom;
+  @HiveField(2)
   String prenom;
+  @HiveField(3)
   int age;
   Personne(
       {this.id, required this.nom, required this.prenom, required this.age});
